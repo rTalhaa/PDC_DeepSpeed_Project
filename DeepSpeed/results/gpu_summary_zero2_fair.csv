@@ -1,0 +1,3 @@
+index,max_memory_used_mib,avg_memory_used_mib,max_gpu_util_percent,avg_gpu_util_percent,max_power_draw_w,avg_power_draw_w
+0,9905.0,8251.017543859649,94.0,55.91228070175438,99.59,67.48789473684211
+1,8233.0,6922.105263157895,100.0,59.280701754385966,99.43,67.33438596491229

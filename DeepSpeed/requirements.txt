@@ -1,0 +1,7 @@
+transformers
+datasets
+accelerate
+deepspeed
+sentencepiece
+torch
+pandas

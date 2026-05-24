@@ -1,0 +1,29 @@
+{
+  "train_metrics": {
+    "train_runtime": 247.0914,
+    "train_samples_per_second": 3.642,
+    "train_steps_per_second": 0.231,
+    "total_flos": 989516676464640.0,
+    "train_loss": 0.792385360650849,
+    "epoch": 1.0,
+    "manual_wall_time_sec": 249.90022230148315,
+    "train_samples": 900,
+    "eval_samples": 100,
+    "world_size": 2,
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "dataset": "HuggingFaceH4/CodeAlpaca_20K",
+    "method": "Dual-GPU DeepSpeed ZeRO-2 Full Fine-Tuning",
+    "trainable_params": 494032768,
+    "total_params": 494032768,
+    "trainable_percentage": 100.0,
+    "rank_peak_memory_allocated_gb": 5.9008,
+    "rank_peak_memory_reserved_gb": 9.3398
+  },
+  "eval_metrics": {
+    "eval_loss": 0.6155058145523071,
+    "eval_runtime": 2.8524,
+    "eval_samples_per_second": 35.058,
+    "eval_steps_per_second": 17.529,
+    "epoch": 1.0
+  }
+}

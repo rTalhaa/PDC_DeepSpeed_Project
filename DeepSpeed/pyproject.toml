@@ -1,0 +1,17 @@
+[project]
+name = "proj"
+version = "0.1.0"
+description = "Dual-GPU DeepSpeed ZeRO-2 fine-tuning experiment for Qwen CodeAlpaca comparison"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.13.0",
+    "bitsandbytes>=0.49.2",
+    "datasets>=4.3.0",
+    "deepspeed>=0.18.9",
+    "pandas>=3.0.2",
+    "torch>=2.10.0",
+    "transformers>=5.5.0",
+    "trl>=0.24.0",
+    "unsloth>=2026.4.8",
+]
